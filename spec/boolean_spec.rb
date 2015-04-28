@@ -1,4 +1,4 @@
-require_relative '../lib/boolean'
+require_relative '../lib/ruby_boolean'
 
 describe Boolean do
   context 'TrueClass' do

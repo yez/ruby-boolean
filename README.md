@@ -4,6 +4,18 @@
 
 This is an extremely simple addition of a Boolean module.
 
+Install:
+
+```ruby
+gem install 'ruby-boolean'
+```
+
+or in your Gemfile
+
+```
+gem 'ruby-boolean'
+```
+
 It's purpose to avoid doing:
 
 ```ruby
