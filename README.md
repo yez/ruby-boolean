@@ -28,6 +28,8 @@ end
 Now it can be reduced to:
 
 ```ruby
+require 'ruby-boolean'
+
 true.is_a?(Boolean)  #=> true
 false.is_a?(Boolean) #=> true
 "foo".is_a?(Boolean) #=> false
