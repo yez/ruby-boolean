@@ -1,5 +1,7 @@
 ## Ruby Boolean
 
+![Build Status](https://travis-ci.org/yez/ruby-boolean.svg?branch=master)
+
 This is an extremely simple addition of a Boolean module.
 
 It's purpose to avoid doing:
