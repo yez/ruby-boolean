@@ -12,7 +12,7 @@ gem install 'ruby-boolean'
 
 or in your Gemfile
 
-```
+```ruby
 gem 'ruby-boolean'
 ```
 
