@@ -1,9 +1,14 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
+MAJOR = 1
+MINOR = 3
+TINY = 4
+VERSION = [MAJOR, MINOR, TINY].join('.').freeze
+
 Gem::Specification.new do |s|
   s.name          = 'ruby-boolean'
-  s.version       = '1.3.3'
+  s.version       = VERSION
   s.date          = '2015-04-28'
   s.summary       = 'Boolean for Ruby'
   s.description   = 'A way to handle booleans in a terse way for a specific use case.'
