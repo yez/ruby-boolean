@@ -13,4 +13,6 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.homepage      = 'http://rubygems.org/gems/ruby-boolean'
   s.license       = 'MIT'
+
+  s.add_development_dependency 'rspec', '~> 3.0'
 end
