@@ -16,7 +16,7 @@ or in your Gemfile
 gem 'ruby-boolean'
 ```
 
-It's purpose to avoid doing:
+Its purpose to avoid doing:
 
 ```ruby
 foo = true
