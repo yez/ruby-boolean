@@ -35,7 +35,7 @@ false.is_a?(Boolean) #=> true
 "foo".is_a?(Boolean) #=> false
 ```
 
-=== Mapping ===
+### Mapping
 Additionally, it adds a #map method to map true and false to different values. This would be most useful for custom string representations:
 
 ```ruby
