@@ -34,3 +34,16 @@ true.is_a?(Boolean)  #=> true
 false.is_a?(Boolean) #=> true
 "foo".is_a?(Boolean) #=> false
 ```
+
+### Mapping
+Additionally, it adds a #map method to map true and false to different values. This would be most useful for custom string representations:
+
+```ruby
+false.map('yes','no')   #=> 'no'
+true.map('selected','') #=> 'selected'
+```
+
+It could also be used as a replacement of the : ? operator:
+
+```ruby
+true.map(true_result, false_result)   #=> true_result
